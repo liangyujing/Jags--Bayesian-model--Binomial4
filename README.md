@@ -1,3 +1,5 @@
+```
+
 rm(list=ls()) # clears workspace
 
 load("ccte_data.Rdata")
@@ -130,6 +132,6 @@ segments(c(y$breaks, max(y$breaks)), rep(0,89),
 title(main =expression(paste("density plot of ", delta)))
 
 
-
+```
 
 
